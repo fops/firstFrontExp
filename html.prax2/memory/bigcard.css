@@ -1,0 +1,33 @@
+
+.board{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	perspective: 1000px;
+
+	
+}
+
+.memory-card{
+
+	width:15%;
+	height:45%;
+	margin: 12px;
+	transform: scale(1);
+	transform-style: preserve-3d;
+	transition: transform .2s;
+
+}
+
+
+.front, .back{
+	width: 50%;
+	height: 50%;
+
+	position: absolute;
+	background: lightgreen;
+	border-radius: 5px;
+	backface-visibility: hidden;
+
+}

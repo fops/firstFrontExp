@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: green;
+  background-color: lightblue;
+}
+
+.container {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+
+.tile {
+  width: 80px;
+  height: 80px;
+  font-size: 60px;
+}
+
+.gameBoard {
+  display: none;
+}
+
+input[type="text"] {
+  height: 30px;
+  width: 250px;
+}

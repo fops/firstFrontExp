@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Memory mang</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div>
+      <h1>MEMORY GAME</h1>
+    </div>
+    <input
+      id="name"
+      type="text"
+      name="name"
+      placeholder="Your name.."
+      required
+    />
+    <div class="main">
+      <div class="card_menu">
+        <button
+          class="6card_button"
+          id="6card_button"
+          onclick="clickSettings(event)"
+        >
+          6 cards
+        </button>
+        <button
+          class="16card_button"
+          id="16card_button"
+          onclick="clickSettings(event)"
+        >
+          16 cards
+        </button>
+        <button
+          class="26card_button"
+          id="26card_button"
+          onclick="clickSettings(event)"
+        >
+          26 cards
+        </button>
+        <button
+          class="52card_button"
+          id="52card_button"
+          onclick="clickSettings(event)"
+        >
+          52 cards
+        </button>
+      </div>
+      <div class="rank_menu">
+        <button class="number" id="number" onclick="clickSettings(event)">
+          Same number
+        </button>
+        <button class="color" id="color" onclick="clickSettings(event)">
+          Same number and color
+        </button>
+      </div>
+      <div class="scores">
+        <a href="http://dijkstra.cs.ttu.ee/~albutu/cgi-bin/get.py?getLast=10"
+          ><button class="scr">
+            Scores
+          </button></a
+        >
+      </div>
+
+      <div class="start_button_menu">
+        <button
+          class="start_button"
+          id="start_button"
+          onclick="clickSettings(event)"
+        >
+          Start Game
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
